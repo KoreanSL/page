@@ -25,26 +25,27 @@ body {
 .logo span {
     display: flex;
     align-items: center;
-    margin-top: 5px; /* 필요에 따라 조절 가능 */
+    margin-top: 5px;
+    white-space: nowrap; /* 텍스트 줄 바꿈 방지 */
 }
 
 .nav-links {
     display: flex;
-    margin-left: auto; /* 화면 우측으로 이동 */
+    margin-left: 0; /* 왼쪽 여백을 없앱니다 */
 }
 
 .nav-links a {
     color: #fff;
     text-decoration: none;
-    margin-left: 0px;
+    margin-left: 20px; /* 각 아이콘 사이의 간격 조정합니다 */
     display: flex;
-    align-items: center; /* 아이콘과 텍스트를 수직 가운데 정렬 */
+    align-items: center;
 }
 
 .nav-links a img {
     width: 30px;
     height: 30px;
-    margin-right: 5px; /* 아이콘과 텍스트 사이의 간격을 조정 */
+    margin-right: 5px;
 }
 
 .nav-links a:hover {
