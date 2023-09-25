@@ -49,7 +49,5 @@ body {
 
 .content {
     margin-top: 80px;
-    margin-left: auto; /* 가운데 정렬을 위해 auto로 설정 */
-    margin-right: auto;
-    max-width: 600px; /* 최대 너비 설정 */
+    margin-left: 5px; /* 가운데 정렬을 위해 auto로 설정 */
 }
