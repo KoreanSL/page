@@ -25,7 +25,6 @@ body {
 .logo span {
     display: flex;
     align-items: center;
-    margin-top: 5px; /* 필요에 따라 조절 가능 */
 }
 
 .nav-links {
