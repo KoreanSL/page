@@ -44,5 +44,12 @@ body {
 
 .content {
     margin-top: 80px;
-    margin-left: 20px;
+    margin-left: auto; /* 가운데 정렬을 위해 auto로 설정 */
+    margin-right: auto;
+    max-width: 600px; /* 최대 너비 설정 */
+}
+
+iframe {
+    width: 30px; /* 가로 크기 설정 */
+    height: 16.9px; /* 세로 크기 설정 (16:9 비율로 계산) */
 }
