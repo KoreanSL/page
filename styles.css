@@ -22,12 +22,6 @@ body {
     height: 30px;
     margin-right: 5px;
 }
-.logo span {
-    display: flex;
-    align-items: center;
-    margin-top: 5px;
-    white-space: nowrap; /* 텍스트 줄 바꿈 방지 */
-}
 
 .nav-links {
     display: flex;
