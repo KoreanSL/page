@@ -57,8 +57,3 @@ body {
     margin-right: auto;
     max-width: 600px; /* 최대 너비 설정 */
 }
-
-iframe {
-    width: 30px; /* 가로 크기 설정 */
-    height: 16.9px; /* 세로 크기 설정 (16:9 비율로 계산) */
-}
