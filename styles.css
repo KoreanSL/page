@@ -19,7 +19,8 @@ body {
 .logo img {
     width: 53px;
     height: 30px;
-    margin-right: 5px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 .nav-links {
