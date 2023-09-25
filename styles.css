@@ -22,20 +22,29 @@ body {
     height: 30px;
     margin-right: 10px;
 }
+.logo span {
+    display: flex;
+    align-items: center;
+    margin-top: 5px; /* 필요에 따라 조절 가능 */
+}
 
 .nav-links {
     display: flex;
+    margin-left: auto; /* 화면 우측으로 이동 */
 }
 
 .nav-links a {
     color: #fff;
     text-decoration: none;
     margin-left: 10px;
+    display: flex;
+    align-items: center; /* 아이콘과 텍스트를 수직 가운데 정렬 */
 }
 
 .nav-links a img {
-    width: 30px; /* 이미지 크기 조정 */
+    width: 30px;
     height: 30px;
+    margin-right: 5px; /* 아이콘과 텍스트 사이의 간격을 조정 */
 }
 
 .nav-links a:hover {
