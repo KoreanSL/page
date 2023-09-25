@@ -23,10 +23,19 @@ body {
     margin-right: 10px;
 }
 
+.nav-links {
+    display: flex;
+}
+
 .nav-links a {
     color: #fff;
     text-decoration: none;
     margin-left: 10px;
+}
+
+.nav-links a img {
+    width: 30px; /* 이미지 크기 조정 */
+    height: 30px;
 }
 
 .nav-links a:hover {
