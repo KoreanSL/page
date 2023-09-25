@@ -37,9 +37,10 @@ body {
 .nav-links a {
     color: #fff;
     text-decoration: none;
-    margin-left: 20px; /* 각 아이콘 사이의 간격 조정합니다 */
+    margin-left: 5px; /* 각 아이콘 사이의 간격 조정합니다 */
     display: flex;
     align-items: center;
+    offset: [-4px, 0]
 }
 
 .nav-links a img {
